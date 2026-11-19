@@ -100,7 +100,7 @@ window.WETLAND_DATA = {
 /* Species reference photographs; observation locality is recorded separately. */
 window.WETLAND_DATA.speciesPhotos = {
   "东方白鹳": {
-    "image": "images/chart-oriental-stork.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/chart-oriental-stork.webp",
     "author": "桑新华",
     "url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363607_10320277.html",
     "license": null,
@@ -108,7 +108,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "中华秋沙鸭": {
-    "image": "images/bird-scaly-sided-merganser.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-scaly-sided-merganser.webp",
     "author": "Rufus46",
     "url": "https://commons.wikimedia.org/wiki/File:Schuppensaeger_Mergus_squamatus_Zoo_Augsburg-02.jpg",
     "license": "CC BY-SA 3.0",
@@ -116,7 +116,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "小天鹅": {
-    "image": "images/chart-bewicks-swan.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/chart-bewicks-swan.webp",
     "author": "belvedere04",
     "url": "https://commons.wikimedia.org/wiki/File:Cygnus_columbianus_bewickii_344072989.jpg",
     "license": "CC BY 4.0",
@@ -124,7 +124,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "鸿雁": {
-    "image": "images/chart-swan-goose.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/chart-swan-goose.webp",
     "author": "grihahasanov",
     "url": "https://commons.wikimedia.org/wiki/File:Anser_cygnoides,_Ozero_Stepnoye,_Ivolginskiy,_Buryatia_Republic,_Russia_1_(cropped).jpg",
     "license": "CC BY 4.0",
@@ -132,7 +132,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "豆雁": {
-    "image": "images/bird-bean-goose.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-bean-goose.webp",
     "author": "agulivanov",
     "url": "https://commons.wikimedia.org/wiki/File:Anser_fabalis_fabalis,_Kurortny_District,_St_Petersburg,_Russia_1.jpg",
     "license": "CC BY 4.0",
@@ -140,7 +140,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "鸳鸯": {
-    "image": "images/chart-mandarin-duck.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/chart-mandarin-duck.webp",
     "author": "刘兆瑞",
     "url": "https://tsgw.taian.gov.cn/art/2026/1/21/art_363607_10320272.html",
     "license": null,
@@ -148,7 +148,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "白鹭": {
-    "image": "images/chart-little-egret.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/chart-little-egret.webp",
     "author": "Hobbyfotowiki",
     "url": "https://commons.wikimedia.org/wiki/File:Little_egret_(Egretta_garzetta)_in_flight.jpg",
     "license": "CC0",
@@ -156,7 +156,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "池鹭": {
-    "image": "images/bird-chinese-pond-heron.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-chinese-pond-heron.webp",
     "author": "JJ Harrison  ( https://www.jjharrison.com.au/ )",
     "url": "https://commons.wikimedia.org/wiki/File:Ardeola_bacchus_winter_plumage_-_Laem_Phak_Bia.jpg",
     "license": "CC BY-SA 3.0",
@@ -164,7 +164,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "夜鹭": {
-    "image": "images/bird-night-heron.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-night-heron.webp",
     "author": "Frank Schulenburg",
     "url": "https://commons.wikimedia.org/wiki/File:Nycticorax_nycticorax_at_Las_Gallinas_Wildlife_Ponds,_looking_down.jpg",
     "license": "CC BY-SA 3.0",
@@ -172,7 +172,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "黑水鸡": {
-    "image": "images/bird-moorhen.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-moorhen.webp",
     "author": "Alexis Lours",
     "url": "https://commons.wikimedia.org/wiki/File:Common_moorhen_(Gallinula_chloropus)_France.jpg",
     "license": "CC BY 4.0",
@@ -180,7 +180,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "翠鸟": {
-    "image": "images/bird-kingfisher.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-kingfisher.webp",
     "author": "Andreas Trepte",
     "url": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_Alcedo_atthis.jpg",
     "license": "CC BY-SA 2.5",
@@ -188,7 +188,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "白头鹎": {
-    "image": "images/bird-light-vented-bulbul.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-light-vented-bulbul.webp",
     "author": "Noel Reynolds",
     "url": "https://commons.wikimedia.org/wiki/File:Light-vented_Bulbul_(Pycnonotus_sinensis)_(7184486586).jpg",
     "license": "CC BY 2.0",
@@ -196,7 +196,7 @@ window.WETLAND_DATA.speciesPhotos = {
     "position": "center center"
   },
   "金翅雀": {
-    "image": "images/bird-oriental-greenfinch.webp",
+    "image": "https://xuancheng-migratory-birds.pages.dev/images/bird-oriental-greenfinch.webp",
     "author": "se1",
     "url": "https://commons.wikimedia.org/wiki/File:Grey-capped_Greenfinch,_Longquanyi,_Chengdu,_Sichuan,_China_1.jpg",
     "license": "CC BY 4.0",
