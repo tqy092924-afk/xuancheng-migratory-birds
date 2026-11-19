@@ -6,24 +6,6 @@
   const menu = document.querySelector('#menu-toggle');
   const positions = new Map();
   let activeId = null, toastTimer;
-  let chartScript;
-  function loadCharts(section) {
-    if (!section.dataset.chartScript || chartScript || window.initWetlandCharts) return;
-    section.querySelector('.chart-retry')?.remove();
-    chartScript = document.createElement('script');
-    chartScript.src = section.dataset.chartScript;
-    chartScript.onerror = () => {
-      chartScript.remove();
-      chartScript = null;
-      const retry = document.createElement('button');
-      retry.type = 'button';
-      retry.className = 'chart-retry';
-      retry.textContent = '重新加载图表';
-      retry.addEventListener('click', () => loadCharts(section));
-      section.querySelector('#chart-observations').append(retry);
-    };
-    document.head.append(chartScript);
-  }
   function closeMenu() {
     header.classList.remove('menu-open');
     menu.setAttribute('aria-expanded','false');
@@ -45,11 +27,6 @@
     });
     activeId = section.id;
     document.body.dataset.section = section.id;
-    if (section.id === 'data') loadCharts(section);
-    if (section.id === 'visuals') {
-      const film = section.querySelector('video[data-poster]');
-      if (film && !film.hasAttribute('poster')) film.poster = film.dataset.poster;
-    }
     const heading = section.querySelector('h1, h2');
     document.title = (section.id === 'home' ? '万羽南归，宣城为驿' : heading?.textContent || '候鸟赴皖') + '｜候鸟赴皖';
     closeMenu();

@@ -26,8 +26,7 @@
 
 /* The film occupies the reading width. Chapter links sit immediately below it. */
 .film-layout,.film-player{display:block;min-width:0}
-.chapter-page .video-intro{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:20px}
-.film-quality{flex:none;font-size:13px;color:var(--chapter-accent);text-underline-offset:4px}
+.chapter-page .video-intro{margin-bottom:20px}
 .chapter-page .video-intro h3{font-size:27px;line-height:1.5;font-weight:600;margin-bottom:9px}
 .chapter-page .video-intro>p{font-size:14px;line-height:1.85;color:var(--chapter-muted)}
 .chapter-page .video-shell{background:#142b25;line-height:0}
