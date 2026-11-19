@@ -317,7 +317,7 @@
   }
   function init() {
     const section=document.getElementById('data');
-    if(!section||section.dataset.chartsReady==='true')return;
+    if(!section||section.hidden||section.dataset.chartsReady==='true')return;
     section.dataset.chartsReady='true';
     const observed=DATA.observations.filter(r=>r.group==='observed');
     const forecast=DATA.observations.filter(r=>r.group==='forecast');
